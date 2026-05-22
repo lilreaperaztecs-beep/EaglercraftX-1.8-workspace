@@ -1041,6 +1041,14 @@ public class Item {
 		registerItem(2265, (String) "record_ward", (new ItemRecord("ward")).setUnlocalizedName("record"));
 		registerItem(2266, (String) "record_11", (new ItemRecord("11")).setUnlocalizedName("record"));
 		registerItem(2267, (String) "record_wait", (new ItemRecord("wait")).setUnlocalizedName("record"));
+		        registerItem(501, (String) "ruby_bow", (new ItemBow()).setUnlocalizedName("rubyBow"));
+        registerItem(502, (String) "ruby_pickaxe", (new ItemPickaxe(Item.ToolMaterial.EMERALD)).setUnlocalizedName("pickaxeRuby"));
+        registerItem(503, (String) "ruby_helmet", (new ItemArmor(ItemArmor.ArmorMaterial.DIAMOND, 3, 0)).setUnlocalizedName("helmetRuby"));
+		        registerItem(504, (String) "ruby_chestplate", (new ItemArmor(ItemArmor.ArmorMaterial.DIAMOND, 3, 1)).setUnlocalizedName("chestplateRuby"));
+        registerItem(505, (String) "ruby_leggings", (new ItemArmor(ItemArmor.ArmorMaterial.DIAMOND, 3, 2)).setUnlocalizedName("leggingsRuby"));
+        registerItem(506, (String) "ruby_boots", (new ItemArmor(ItemArmor.ArmorMaterial.DIAMOND, 3, 3)).setUnlocalizedName("bootsRuby"));
+
+
 	}
 
 	/**+

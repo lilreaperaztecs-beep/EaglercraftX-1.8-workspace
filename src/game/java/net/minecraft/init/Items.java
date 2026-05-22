@@ -70,6 +70,14 @@ public class Items {
 	public static Item wooden_hoe;
 	public static Item stone_hoe;
 	public static Item iron_hoe;
+	public static Item ruby_sword;
+    public static Item ruby_bow;
+    public static Item ruby_pickaxe;
+    public static ItemArmor ruby_helmet;
+    public static ItemArmor ruby_chestplate;
+    public static ItemArmor ruby_leggings;
+    public static ItemArmor ruby_boots;
+
 	public static Item diamond_hoe;
 	public static Item golden_hoe;
 	public static Item wheat_seeds;
